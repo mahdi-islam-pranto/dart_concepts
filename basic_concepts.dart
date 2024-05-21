@@ -15,6 +15,7 @@ void main() {
   print(ternary_condition(12)); //you can not vote now
   print(ternary_condition(102)); //are u sure u are living?
   print(ternary_condition(22)); //you can vote
+  ex_loop(); // 1 2 loop continues 4 5 6 loop stops
 }
 
 int add_a(a) {
@@ -33,4 +34,18 @@ ternary_condition(int age) {
   return result;
 }
 
-// loops -> for/while, contineu/break statements
+// loops -> for/while, continue/break statements
+
+ex_loop() {
+  for (int i = 1; i <= 10; i++) {
+    if (i == 3) {
+      print("loop continues..");
+      continue;
+    }
+    print(i);
+    if (i == 6) {
+      print("loop stops");
+      break;
+    }
+  }
+}
