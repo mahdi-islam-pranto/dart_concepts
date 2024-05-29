@@ -22,7 +22,7 @@ class Calculation {
 
 class GFG {
   String name = " ";
-
+//getter function
   String get gfg1 {
     return name;
   }
@@ -37,7 +37,7 @@ class GFG {
 }
 
 void main() {
-  Calculation basic_math = new Calculation(20, 10); // obsject
+  Calculation basic_math = new Calculation(20, 10); // object
   print(basic_math.multiplication());
 
   GFG obj2 = new GFG();
