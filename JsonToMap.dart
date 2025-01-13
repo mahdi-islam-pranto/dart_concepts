@@ -28,7 +28,6 @@ String jsonStringResponse = '''
 
 ''';
 
-
 void main() {
   // convert json string to map
 
@@ -53,6 +52,8 @@ void main() {
   print("User address: ${user.address?.street}");
   print("User company: ${user.company?.name}");
 }
+
+// User class model
 
 class UserClass {
   int? id;
