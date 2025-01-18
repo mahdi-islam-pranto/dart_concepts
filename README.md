@@ -1,4 +1,4 @@
-# Python Basics
+# Dart Basics
 
 A beginner-friendly guide to Python programming covering fundamental concepts.
 
