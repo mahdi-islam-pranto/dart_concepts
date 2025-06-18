@@ -1,3 +1,5 @@
+// code: Class in Dart, Object in Dart
+
 class MyClass {
   String firstName = 'Rabbil';
 
@@ -13,6 +15,7 @@ class MyClass {
 /// calls the `addTwo` method, and prints the `firstName` property.
 
 void main() {
+  // creating an object of MyClass
   MyClass myObj = MyClass();
   myObj.addTwo();
   print(myObj.firstName);
