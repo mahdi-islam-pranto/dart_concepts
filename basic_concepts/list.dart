@@ -7,21 +7,21 @@ void main() {
 
   ///Topic:  Fixed-Length List
   // Create a fixed-length list with 3 elements, all initialized to '0'
-  // List<String> numbers = List<String>.filled(3, "*");
+  List<String> numbers = List<String>.filled(3, "*");
 
   // // Print the fixed-length list
-  // print('Fixed length list: $numbers');
+  print('Fixed length list: $numbers');
 
   /// TOPIC:   Accessing Elements by Index
-  // print('First fruit: ${fruits[2]}'); // Apple
-  //  print('Last fruit: ${fruits[fruits.length - 1]}'); // Orange
+  print('First fruit: ${fruits[2]}'); // Apple
+  print('Last fruit: ${fruits[fruits.length - 1]}'); // Orange
 
   /// Topic : Adding elements to a list
   // Add one element
-  // fruits.add('Orange');
+  fruits.add('Orange');
 
   // Add multiple elements
-  // fruits.addAll(['Grapes', 'Pineapple']);
+  fruits.addAll(['Grapes', 'Pineapple']);
 
   // print(
   //     'After adding elements: $fruits'); // ['Apple', 'Banana', 'Orange', 'Grapes', 'Pineapple']
@@ -29,15 +29,15 @@ void main() {
   /// Topic: Removing from a list
 
   // Remove an element by value
-  // fruits.remove('Banana');
+  fruits.remove('Banana');
   // print('After removing Banana: $fruits'); // ['Apple', 'Orange']
 
   // // Remove an element by index
-  // fruits.removeAt(0);
+  fruits.removeAt(0);
   // print('After removing element at index 0: $fruits'); // ['Orange']
 
   // // Remove the last element
-  // fruits.removeLast();
+  fruits.removeLast();
   // print('After removing last element: $fruits'); // []
 
   // // Clear the list
@@ -61,8 +61,8 @@ void main() {
 
 //// Contains or not ?
 
-  // print(fruits.contains('Banana')); // true
-  // print(fruits.contains('Grapes')); // false
+  print(fruits.contains('Banana')); // true
+  print(fruits.contains('Grapes')); // false
 
   /// Index of
 

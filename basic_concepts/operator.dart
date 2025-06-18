@@ -17,9 +17,9 @@ void main() {
 
   // bool x = true;
   // bool y = false;
-  // print(x && y); // false
-  // print(x || y); // true
-  // print(!x); // false
+  // print(x && y); // false  (and)
+  // print(x || y); // true   (or)
+  // print(!x); // false  (not)
 
   print(a < b ? 'a is greater' : 'b is greater'); // b is greater
 }
